@@ -1,0 +1,26 @@
+[project]
+name = "sat-optimizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bs4>=0.0.2",
+    "ipykernel>=7.0.1",
+    "matplotlib>=3.10.7",
+    "nbformat>=5.10.4",
+    "numba>=0.62.1",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+    "psycopg2>=2.9.11",
+    "pymoo>=0.6.1.5",
+    "requests>=2.32.5",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+]
+
+[tool.uv.workspace]
+members = [
+    "3.1",
+]
