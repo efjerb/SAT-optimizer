@@ -11,3 +11,10 @@ wheels/
 
 # Config files
 main/config.ini
+
+# Folders
+figs/
+data/
+
+# Optimization results
+Optimization results/mo_res
